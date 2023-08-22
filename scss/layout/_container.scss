@@ -1,0 +1,19 @@
+.container {
+	max-width: $max-width-s;
+	margin: 0 auto;
+	padding: 0 $col1;
+}
+
+@media screen and (min-width: $max-width-m) {
+	.container {
+		max-width: $max-width-m;
+		padding: 0 $col2;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	.container {
+		max-width: $max-width-l;
+		padding: 0 $col3;
+	}
+}
