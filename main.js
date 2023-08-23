@@ -1,6 +1,9 @@
 // import './style.css';
 // import './node_modules/normalize.css/normalize.css';
 import './scss/main.scss';
+import Choices from 'choices.js';
+window.Choices = Choices;
+import './customselect';
 // import javascriptLogo from './javascript.svg';
 // import viteLogo from '/vite.svg';
 // import { setupCounter } from './counter.js';

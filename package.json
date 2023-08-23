@@ -12,5 +12,8 @@
     "sass": "^1.65.1",
     "scss": "^0.2.4",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "choices.js": "^10.2.0"
   }
 }

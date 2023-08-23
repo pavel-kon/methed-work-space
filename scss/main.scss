@@ -12,13 +12,16 @@
 @import 'base/base';
 
 @import 'layout/container';
-// @import 'layout/navigation';
-// @import 'layout/grid';
-// @import 'layout/header';
-// @import 'layout/footer';
-// @import 'layout/sidebar';
-// @import 'layout/forms';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/vacancies';
+@import 'layout/filter';
+@import 'layout/cards';
+@import 'layout/vacancy';
 
+@import 'layout/footer';
+
+@import 'components/checkbox';
 // @import 'components/buttons';
 // @import 'components/carousel';
 // @import 'components/cover';
