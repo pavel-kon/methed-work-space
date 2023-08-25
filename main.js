@@ -1,9 +1,10 @@
 // import './style.css';
 // import './node_modules/normalize.css/normalize.css';
 import './scss/main.scss';
-// import Choices from 'choices.js';
-// window.Choices = Choices;
-import './choices.min';
+import Choices from 'choices.js';
+window.Choices = Choices;
+import 'choices.js/public/assets/styles/choices.min.css';
+// import './choices.min';
 import './customselect';
 // import javascriptLogo from './javascript.svg';
 // import viteLogo from '/vite.svg';
